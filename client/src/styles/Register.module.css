@@ -1,0 +1,28 @@
+
+
+.form label{
+    display: inline-block;
+    padding: 2px 5px;
+
+}
+
+.form input{
+    display: block;
+    margin: 5px  5px;
+    padding: 0.5rem;
+    width: 200px;
+    border-width: 0.5px;
+    border-radius: 2px;
+    border-color: var(--secondary-color);
+    
+    
+}
+
+.card{
+
+    background-color: var(--light-color);
+    border-radius: 5px;
+    
+
+}
+

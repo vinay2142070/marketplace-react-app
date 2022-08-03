@@ -1,0 +1,36 @@
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr auto;
+    background-color: white;
+    align-items: center;
+    padding: 2px;
+
+
+}
+.navbar ul{
+    list-style: none;
+}
+
+.navbar ul li{
+    display: inline;
+   
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: var(--primary-color);
+    padding: 10px 15px;
+}
+
+.navbar ul a:hover{
+   
+    color: var(--secondary-color);
+    background-color: lightgray;
+    
+}
+
+.logo{
+    width: 100px;
+    height: 24px;
+    
+}
+
